@@ -1,0 +1,23 @@
+mongoDB->1.Collection(Group of documents)
+         2.Document
+
+         DB-DRIVER-SERVER
+        
+        
+        
+        Driver->simple file convert js command to mongodb command
+
+Mongoose->layer between mongodb and SERVER
+provides Driver,provides few syntax(queries)
+
+https://mongoosejs.com/docs/queries.html--> static helper functions
+
+
+
+
+
+
+
+
+
+
