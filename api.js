@@ -350,7 +350,10 @@ function transformQueryHelper(myQuery) {
 const cors = require("cors");
 // app.use(cors());
 app.use(cors({
-  origin: ["http://localhost:5173"],
+  origin: [
+    "http://localhost:5173",
+    "https://ecommerce-frontend-ks62.onrender.com"
+  ],
   credentials: true
 }));
 const UserRouter = require("./router/UserRouter");
