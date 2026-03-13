@@ -349,8 +349,10 @@ function transformQueryHelper(myQuery) {
 // }
 const cors = require("cors");
 // app.use(cors());
-app.use(cors({ origin: true,
-credentials: true }));
+app.use(cors({
+  origin: ["http://localhost:5173"],
+  credentials: true
+}));
 const UserRouter = require("./router/UserRouter");
 const ProductRouter = require("./router/ProductRouter");
 const authRouter = require("./router/authRouter");
